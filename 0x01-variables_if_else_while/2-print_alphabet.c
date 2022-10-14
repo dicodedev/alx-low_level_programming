@@ -9,7 +9,7 @@ int main(void)
 {
 	char div;
 
-	for (div = 'a'; div <= 'z'; fav++)
+	for (div = 'a'; div <= 'z'; div++)
 	{
 		putchar(div);
 	}
