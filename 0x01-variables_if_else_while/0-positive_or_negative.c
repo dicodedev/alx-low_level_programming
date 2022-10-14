@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main- This program will print +ve, zero and -ve results of a random number
- * Return: 0 (success)
- */
+* main- This program will print +ve, zero and -ve results of a random number
+* Return: 0 (success)
+*/
+
 int main(void)
 {
   int n;
