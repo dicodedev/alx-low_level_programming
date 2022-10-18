@@ -9,9 +9,9 @@ int main(void)
 {
 	int counter = 2;
 
-	long long int a = 1;
-	long long int b = a + 1;
-	long long int c = a + b;
+	unsigned long int a = 1;
+	unsigned long int b = a + 1;
+	unsigned long int c = a + b;
 
 	printf("%" PRId64 ", ", a);
 	printf("%ld, ", b);
