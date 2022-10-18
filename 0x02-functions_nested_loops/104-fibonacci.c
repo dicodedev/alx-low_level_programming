@@ -14,7 +14,7 @@ int main(void)
 
 	printf("%1ld, ", a);
 	printf("%1ld, ", b);
-	while (counter < 98)
+	while (counter < 100)
 	{
 		counter++;
 		printf("%1ld", c);
