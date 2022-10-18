@@ -21,7 +21,9 @@ int main(void)
 		a = b;
 		b = c;
 		c = a + b;
+		if(counter < 100){
 		printf(", ");
+		}
 	}
 	printf("\n");
 	return (0);
