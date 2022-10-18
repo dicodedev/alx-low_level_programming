@@ -15,14 +15,14 @@ int main(void)
 
 	printf("%" PRId64 ", ", a);
 	printf("%ld, ", b);
-	while (counter < 100)
+	while (counter < 98)
 	{
 		counter++;
 		printf("%ld", c);
 		a = b;
 		b = c;
 		c = a + b;
-		if (counter < 100)
+		if (counter < 98)
 		{
 		printf(", ");
 		}
