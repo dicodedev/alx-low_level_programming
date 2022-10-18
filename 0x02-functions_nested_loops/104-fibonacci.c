@@ -12,12 +12,12 @@ int main(void)
 	long int b = a + 1;
 	long int c = a + b;
 
-	printf("%1ld, ", a);
-	printf("%1ld, ", b);
+	printf("%ld, ", a);
+	printf("%ld, ", b);
 	while (counter < 100)
 	{
 		counter++;
-		printf("%1ld", c);
+		printf("%ld", c);
 		a = b;
 		b = c;
 		c = a + b;
