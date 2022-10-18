@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	int n1, n2, fn, afn;
+	int n1, n2;
+        long int fn, afn;
 
 	n1 = 1;
 	n2 = 2;
