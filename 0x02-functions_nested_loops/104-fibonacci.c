@@ -8,9 +8,9 @@ int main(void)
 {
 	int counter = 2;
 
-	unsigned int a = 1;
-	unsigned long int b = a + 1;
-	unsigned long int c = a + b;
+	long int a = 1;
+	long int b = a + 1;
+	long int c = a + b;
 
 	printf("%d, ", a);
 	printf("%d, ", b);
