@@ -12,7 +12,7 @@ int main(void)
 	unsigned long int b = a + 1;
 	unsigned long int c = a + b;
 
-	printf("%" PRId64 ", ", a);
+	printf("%ld, ", a);
 	printf("%ld, ", b);
 	while (counter < 98)
 	{
